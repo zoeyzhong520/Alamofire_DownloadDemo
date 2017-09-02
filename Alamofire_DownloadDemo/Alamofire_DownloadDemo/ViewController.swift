@@ -61,7 +61,7 @@ extension ViewController {
         
         let button = UIButton(type: .system)
         button.frame = CGRect(x: 0, y: 100, width: ScreenWidth, height: 100)
-        button.setTitle("开始阅读", for: .normal)
+        button.setTitle("点击下载epub", for: .normal)
         button.addTarget(self, action: #selector(buttonPressed), for: .touchUpInside)
         self.view.addSubview(button)
         
@@ -90,7 +90,7 @@ extension ViewController {
         if isExist == false {
             setupDownloadRequest()
         }else{
-            print("已下载过\(substring)")
+            showHudWithDuration(in: self.view, hint: "已下载过\(substring)")
         }
     }
     

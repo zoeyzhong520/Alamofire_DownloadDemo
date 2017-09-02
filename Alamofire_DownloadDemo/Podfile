@@ -3,5 +3,6 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'Alamofire_DownloadDemo' do
+    pod 'MBProgressHUD', '~> 1.0.0'
     pod 'Alamofire', '~> 4.4'
 end
