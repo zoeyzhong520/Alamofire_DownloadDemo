@@ -16,6 +16,8 @@
 		DD2F06ED1F4F2CE9001990FB /* Alamofire_DownloadDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F06EC1F4F2CE9001990FB /* Alamofire_DownloadDemoTests.swift */; };
 		DD2F06F81F4F2CE9001990FB /* Alamofire_DownloadDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F06F71F4F2CE9001990FB /* Alamofire_DownloadDemoUITests.swift */; };
 		DD2F07081F4F2EA1001990FB /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2F07071F4F2EA1001990FB /* NetworkTool.swift */; };
+		DD359F661F596AE100FE2286 /* FileManageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD359F651F596AE100FE2286 /* FileManageHelper.swift */; };
+		DD359F681F5AAD8E00FE2286 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD359F671F5AAD8E00FE2286 /* String+Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		DD2F06F71F4F2CE9001990FB /* Alamofire_DownloadDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire_DownloadDemoUITests.swift; sourceTree = "<group>"; };
 		DD2F06F91F4F2CE9001990FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD2F07071F4F2EA1001990FB /* NetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		DD359F651F596AE100FE2286 /* FileManageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManageHelper.swift; sourceTree = "<group>"; };
+		DD359F671F5AAD8E00FE2286 /* String+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Util.swift"; sourceTree = "<group>"; };
 		F5A9F22E10A62B5ECC645F96 /* Pods-Alamofire_DownloadDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire_DownloadDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alamofire_DownloadDemo/Pods-Alamofire_DownloadDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +159,8 @@
 		DD2F07061F4F2EA1001990FB /* Public（公共类） */ = {
 			isa = PBXGroup;
 			children = (
+				DD359F671F5AAD8E00FE2286 /* String+Util.swift */,
+				DD359F651F596AE100FE2286 /* FileManageHelper.swift */,
 				DD2F07071F4F2EA1001990FB /* NetworkTool.swift */,
 			);
 			path = "Public（公共类）";
@@ -347,6 +353,8 @@
 			files = (
 				DD2F06DA1F4F2CE9001990FB /* ViewController.swift in Sources */,
 				DD2F07081F4F2EA1001990FB /* NetworkTool.swift in Sources */,
+				DD359F681F5AAD8E00FE2286 /* String+Util.swift in Sources */,
+				DD359F661F596AE100FE2286 /* FileManageHelper.swift in Sources */,
 				DD2F06D81F4F2CE9001990FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
